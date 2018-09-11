@@ -24,6 +24,7 @@ alias q='exit'
 alias t='whoami'
 alias ntcp='netstat -na | grep -i listen'
 alias nudp='netstat -na | grep -i udp'
+alias psx="ps aux | grep -i $1"
 
 ## source local configs
 bash_files=(.bash_local .bash_aliases)
