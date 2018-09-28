@@ -1,6 +1,6 @@
 #!/bin/bash
 
-files=('.bash_profile' '.bashrc' '.bash_alisases' )
+files=(".bash_profile" ".bashrc" ".bash_alisases")
 
 for i in ${files[@]}; do
 
